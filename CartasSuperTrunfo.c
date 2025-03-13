@@ -21,8 +21,8 @@ int main() {
     printf("area: 1521.11 km²\n");
     printf("PIB: 699.28 bilhões de reais\n");
     printf("Número de Pontos Turísticos: 50\n");
-    densidade_populacional = 12325000/1521.11;
-    PIB_per_capita = 699280000000/12325000;
+    densidade_populacional = (float)12325000/1521.11;
+    PIB_per_capita = (float)699280000000/12325000;
     printf("Densidade Populacional: %.2f\n", densidade_populacional);
     printf("PIB per Capita: %.2f\n", PIB_per_capita);
 
@@ -36,9 +36,9 @@ int main() {
     printf("area: 1200.25 km²\n");
     printf("PIB: 300.50000000\n");
     printf("Número de Pontos Turísticos: 30\n");
-    densidade_populacional = 6748000/1200.25;
+    densidade_populacional = (float) 6748000/1200.25;
     printf("Densidade Populacional: %.2f\n", densidade_populacional);
-    PIB_per_capita= 30050000000/6748000;
+    PIB_per_capita= (float)30050000000/6748000;
     printf("PIB per Capita: %.2f\n", PIB_per_capita);
     
 
