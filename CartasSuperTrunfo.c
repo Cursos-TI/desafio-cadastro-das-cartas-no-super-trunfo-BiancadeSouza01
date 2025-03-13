@@ -6,30 +6,40 @@ int main() {
     printf("Desafio super trunfo-países!\n");
     
      
-    //Carta 1:
-    /*estado: A
-    codigo: A01
-    nome_da_cidade: São Paulo
-    população: 12325000
-    area: 1521.11 km²
-    PIB: 699.28 bilhões de reais
-    Número de Pontos Turísticos: 50
-    */
-
-    //Carta 2:
-    /*Estado: B
-    Código: B02
-    Nome da Cidade: Rio de Janeiro
-    População: 6748000
-    Área: 1200.25 km²
-    PIB: 300.50 bilhões de reais
-    Número de Pontos Turísticos: 30
-    */
-
+    
     char estado, codigo_da_carta, nome_da_cidade;
-    int populacao, Carta;
-    float area, PIB, numero_de_pontos_turisticos;
+    int carta, carta1, carta2,  numero_de_pontos_turisticos;
+    float area, PIB, densidade_populacional, PIB_per_capita, populacao;
 
+
+    //carta 1:
+    printf("carta1:\n");
+    printf("estado: A\n");
+    printf("Código: A01\n");
+    printf("Nome da Cidade: São Paulo\n");
+    printf("populacao: 12325000\n");
+    printf("area: 1521.11 km²\n");
+    printf("PIB: 699.28 bilhões de reais\n");
+    printf("Número de Pontos Turísticos: 50\n");
+    densidade_populacional = 12325000/1521.11;
+    PIB_per_capita = 699280000000/12325000;
+    printf("Densidade Populacional: %.2f\n", densidade_populacional);
+    printf("PIB per Capita: %.2f\n", PIB_per_capita);
+
+    
+    //Carta 2:
+    printf("Carta 2:\n");
+    printf("Estado: B\n");
+    printf("Código: B02\n");
+    printf("Nome da Cidade: Rio de Janeiro\n");
+    printf("populacao: 6748000\n");
+    printf("area: 1200.25 km²\n");
+    printf("PIB: 300.50000000\n");
+    printf("Número de Pontos Turísticos: 30\n");
+    densidade_populacional = 6748000/1200.25;
+    printf("Densidade Populacional: %.2f\n", densidade_populacional);
+    PIB_per_capita= 30050000000/6748000;
+    printf("PIB per Capita: %.2f\n", PIB_per_capita);
     
 
 
